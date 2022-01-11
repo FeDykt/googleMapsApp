@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4214894199C973F2AF91D826 /* Pods_googleMapsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F12500F57C7AC74F8B53F0F /* Pods_googleMapsApp.framework */; };
+		BF24170F278C7DD300E576D4 /* NetworkReguest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF24170E278C7DD300E576D4 /* NetworkReguest.swift */; };
+		BF241711278C7DDA00E576D4 /* NetworkDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF241710278C7DDA00E576D4 /* NetworkDecode.swift */; };
+		BF241713278C7E7E00E576D4 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF241712278C7E7E00E576D4 /* NetworkDataFetcher.swift */; };
+		BF241716278C7F0800E576D4 /* MapsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF241715278C7F0800E576D4 /* MapsModel.swift */; };
+		BF72FC7C278CDBB00088B13C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF72FC7B278CDBB00088B13C /* MainVC.swift */; };
 		BFD3DDC2278C769A00ED9366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3DDC1278C769A00ED9366 /* AppDelegate.swift */; };
 		BFD3DDC4278C769A00ED9366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3DDC3278C769A00ED9366 /* SceneDelegate.swift */; };
 		BFD3DDC6278C769A00ED9366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3DDC5278C769A00ED9366 /* ViewController.swift */; };
-		BFD3DDC9278C769A00ED9366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD3DDC7278C769A00ED9366 /* Main.storyboard */; };
 		BFD3DDCC278C769A00ED9366 /* googleMapsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFD3DDCA278C769A00ED9366 /* googleMapsApp.xcdatamodeld */; };
 		BFD3DDCE278C769B00ED9366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD3DDCD278C769B00ED9366 /* Assets.xcassets */; };
 		BFD3DDD1278C769B00ED9366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD3DDCF278C769B00ED9366 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F12500F57C7AC74F8B53F0F /* Pods_googleMapsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_googleMapsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E5536EED2B3A9DCB46A6A0 /* Pods-googleMapsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleMapsApp.debug.xcconfig"; path = "Target Support Files/Pods-googleMapsApp/Pods-googleMapsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF24170E278C7DD300E576D4 /* NetworkReguest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReguest.swift; sourceTree = "<group>"; };
+		BF241710278C7DDA00E576D4 /* NetworkDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDecode.swift; sourceTree = "<group>"; };
+		BF241712278C7E7E00E576D4 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		BF241715278C7F0800E576D4 /* MapsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsModel.swift; sourceTree = "<group>"; };
+		BF72FC7B278CDBB00088B13C /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		BFD3DDBE278C769A00ED9366 /* googleMapsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleMapsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD3DDC1278C769A00ED9366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFD3DDC3278C769A00ED9366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BFD3DDC5278C769A00ED9366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFD3DDC8278C769A00ED9366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFD3DDCB278C769A00ED9366 /* googleMapsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = googleMapsApp.xcdatamodel; sourceTree = "<group>"; };
 		BFD3DDCD278C769B00ED9366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD3DDD0278C769B00ED9366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFD3DDD2278C769B00ED9366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5F7EC90AC542226A348591 /* Pods-googleMapsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleMapsApp.release.xcconfig"; path = "Target Support Files/Pods-googleMapsApp/Pods-googleMapsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4214894199C973F2AF91D826 /* Pods_googleMapsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D4ACC8E9A4C9CE825B16939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F12500F57C7AC74F8B53F0F /* Pods_googleMapsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF24170D278C7DC400E576D4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BF241714278C7EFD00E576D4 /* Model */,
+				BF24170E278C7DD300E576D4 /* NetworkReguest.swift */,
+				BF241712278C7E7E00E576D4 /* NetworkDataFetcher.swift */,
+				BF241710278C7DDA00E576D4 /* NetworkDecode.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BF241714278C7EFD00E576D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF241715278C7F0800E576D4 /* MapsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BFD3DDB5278C769A00ED9366 = {
 			isa = PBXGroup;
 			children = (
 				BFD3DDC0278C769A00ED9366 /* googleMapsApp */,
 				BFD3DDBF278C769A00ED9366 /* Products */,
+				DCD642E07A5945E088873DAC /* Pods */,
+				3D4ACC8E9A4C9CE825B16939 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +102,24 @@
 			children = (
 				BFD3DDC1278C769A00ED9366 /* AppDelegate.swift */,
 				BFD3DDC3278C769A00ED9366 /* SceneDelegate.swift */,
+				BF24170D278C7DC400E576D4 /* Network */,
 				BFD3DDC5278C769A00ED9366 /* ViewController.swift */,
-				BFD3DDC7278C769A00ED9366 /* Main.storyboard */,
+				BF72FC7B278CDBB00088B13C /* MainVC.swift */,
 				BFD3DDCD278C769B00ED9366 /* Assets.xcassets */,
 				BFD3DDCF278C769B00ED9366 /* LaunchScreen.storyboard */,
 				BFD3DDD2278C769B00ED9366 /* Info.plist */,
 				BFD3DDCA278C769A00ED9366 /* googleMapsApp.xcdatamodeld */,
 			);
 			path = googleMapsApp;
+			sourceTree = "<group>";
+		};
+		DCD642E07A5945E088873DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5536EED2B3A9DCB46A6A0 /* Pods-googleMapsApp.debug.xcconfig */,
+				CE5F7EC90AC542226A348591 /* Pods-googleMapsApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD3DDD5278C769B00ED9366 /* Build configuration list for PBXNativeTarget "googleMapsApp" */;
 			buildPhases = (
+				22DC1CBED1FFF4F1FE7F301C /* [CP] Check Pods Manifest.lock */,
 				BFD3DDBA278C769A00ED9366 /* Sources */,
 				BFD3DDBB278C769A00ED9366 /* Frameworks */,
 				BFD3DDBC278C769A00ED9366 /* Resources */,
+				3F6EF14180837AC59EA2B36B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,11 +184,52 @@
 			files = (
 				BFD3DDD1278C769B00ED9366 /* LaunchScreen.storyboard in Resources */,
 				BFD3DDCE278C769B00ED9366 /* Assets.xcassets in Resources */,
-				BFD3DDC9278C769A00ED9366 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22DC1CBED1FFF4F1FE7F301C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-googleMapsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6EF14180837AC59EA2B36B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleMapsApp/Pods-googleMapsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleMapsApp/Pods-googleMapsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-googleMapsApp/Pods-googleMapsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFD3DDBA278C769A00ED9366 /* Sources */ = {
@@ -143,6 +238,11 @@
 			files = (
 				BFD3DDC6278C769A00ED9366 /* ViewController.swift in Sources */,
 				BFD3DDCC278C769A00ED9366 /* googleMapsApp.xcdatamodeld in Sources */,
+				BF241713278C7E7E00E576D4 /* NetworkDataFetcher.swift in Sources */,
+				BF241711278C7DDA00E576D4 /* NetworkDecode.swift in Sources */,
+				BF72FC7C278CDBB00088B13C /* MainVC.swift in Sources */,
+				BF241716278C7F0800E576D4 /* MapsModel.swift in Sources */,
+				BF24170F278C7DD300E576D4 /* NetworkReguest.swift in Sources */,
 				BFD3DDC2278C769A00ED9366 /* AppDelegate.swift in Sources */,
 				BFD3DDC4278C769A00ED9366 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +251,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFD3DDC7278C769A00ED9366 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFD3DDC8278C769A00ED9366 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFD3DDCF278C769B00ED9366 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +380,7 @@
 		};
 		BFD3DDD6278C769B00ED9366 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E5536EED2B3A9DCB46A6A0 /* Pods-googleMapsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,7 +391,7 @@
 				INFOPLIST_FILE = googleMapsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +409,7 @@
 		};
 		BFD3DDD7278C769B00ED9366 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5F7EC90AC542226A348591 /* Pods-googleMapsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,7 +420,7 @@
 				INFOPLIST_FILE = googleMapsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
