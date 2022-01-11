@@ -2,12 +2,4 @@
 
 Тестовое задание 
 
-Current location:
-
-<img src="https://user-images.githubusercontent.com/16240094/148863561-479dede0-5622-43b3-a721-5130a58d04c6.jpeg" width="300" alt="">
-
-
-Import points from servers:
-
-<img src="https://user-images.githubusercontent.com/16240094/148863276-30d19a1c-4338-4cd4-ba8f-42709e3a49ce.jpeg" width="300" alt="">
-
+<img src="https://user-images.githubusercontent.com/16240094/149014766-d56a1d03-b3ca-42a5-b701-98362932fd34.PNG" width="300" alt=""><img src="https://user-images.githubusercontent.com/16240094/149014758-444ee878-4550-4113-ab20-a4080c0ae534.PNG" width="300" alt="">
