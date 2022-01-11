@@ -29,13 +29,13 @@ struct Points: Codable {
 struct Line: Codable {
     let type: LineType
     let properties: LineProperties
-    let geometry: LineGeometry
+    var geometry: LineGeometry
 }
 
 // MARK: - LineGeometry
 struct LineGeometry: Codable {
     let type: PurpleType
-    let coordinates: [[Double]]
+    var coordinates: [[Double]]
 }
 
 enum PurpleType: String, Codable {

@@ -12,15 +12,11 @@ import GooglePlaces
 class ViewController: UIViewController {
     
     let network = NetworkDecode()
-    var arrayPoints: [MapsModel] = []
     
     var locationManager: CLLocationManager!
     var currentLocation: CLLocation?
     
     var mapView: GMSMapView!
-    
-    var london: GMSMarker?
-      var londonView: UIImageView?
     
     var preciseLocationZoomLevel: Float = 15.0
     var approximateLocationZoomLevel: Float = 10.0
@@ -46,47 +42,23 @@ class ViewController: UIViewController {
                                               longitude: defaultLocation.coordinate.longitude,
                                               zoom: zoomLevel)
         
-        mapView = GMSMapView.map(withFrame: view.bounds, camera: camera)
+        mapView = GMSMapView.map(withFrame: view.safeAreaLayoutGuide.layoutFrame, camera: camera)
         mapView.settings.myLocationButton = true
         
-        mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        mapView.autoresizingMask = [.flexibleWidth, .flexibleTopMargin]
         mapView.isMyLocationEnabled = true
         
         // Add the map to the view, hide it until we've got a location update.
         view.addSubview(mapView)
         mapView.isHidden = true
-        
-        
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "more", style: .done, target: self, action: #selector(asd))
-    }
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-    }
     
-    @objc func requestAction() {
-        network.getDecode { result in
-            switch result {
-            case .success(let success):
-                guard let success = success else { return }
-                self.arrayPoints = [success]
-            case .failure(let error):
-                print("decode data error: \(error.localizedDescription)")
-            }
-        }
-    }
-    
-    func createPin(coordinate: CLLocationCoordinate2D) {
-        let pin = GMSMarker(position: coordinate)
-        pin.icon = GMSMarker.markerImage(with: .systemPink)
-        pin.appearAnimation = .fadeIn
-        pin.map = mapView
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "import points", style: .plain, target: self, action: #selector(actionNextVC))
     }
     
 }
 
 extension ViewController: GMSMapViewDelegate {
-    @objc func asd() {
+    @objc func actionNextVC() {
         let nextVC = MainVC()
         nextVC.modalPresentationStyle = .fullScreen
         present(nextVC, animated: true, completion: nil)
@@ -99,7 +71,6 @@ extension ViewController: CLLocationManagerDelegate {
     // Handle incoming location events.
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location: CLLocation = locations.last!
-        print("Location: \(location)")
         
         let zoomLevel = locationManager.accuracyAuthorization == .fullAccuracy ? preciseLocationZoomLevel : approximateLocationZoomLevel
         let camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude,
